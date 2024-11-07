@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <div class="logo">MyLandingPage</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Welcome to MyLandingPage!</h1>
+            <p>Your journey to success begins here. Start now with our amazing product.</p>
+            <button onclick="scrollToSection('#features')">Explore Features</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Our Features</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>Feature 1</h3>
+                <p>Web Developer.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Feature 2</h3>
+                <p>Java certified .</p>
+            </div>
+            <div class="feature-card">
+                <h3>Feature 3</h3>
+                <p>Microcontroller.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        As a diligent student at IET DSMNRU Lucknow, I am currently immersed in the pursuit of a Bachelor's degree in Electronics and Communication Engineering. 
+        Complementing my academic endeavors, I have achieved Java certification from Incapp,
+         a testament to my proficiency in programming and software development.
+         This dual focus on theoretical understanding and practical skills equips me with a comprehensive foundation in electronic communication engineering,
+          fostering a holistic approach to my education. </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MyLandingPage. All rights reserved.</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
